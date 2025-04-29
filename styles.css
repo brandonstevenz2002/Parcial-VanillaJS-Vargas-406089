@@ -1,0 +1,163 @@
+/* Configuración global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Avatar y descripción */
+.Avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 15px; /* Espacio debajo de cada imagen */
+}
+
+.Avatar-container {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo de la tarjeta */
+.card {
+    max-width: 600px; /* Ajusta el ancho máximo para mayor visualización */
+    margin: 40px auto; /* Centra la tarjeta horizontalmente */
+    background-color: lightskyblue;
+    padding: 20px; /* Espaciado interno uniforme */
+    border-radius: 15px;
+    text-align: center; /* Centra el contenido interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedor de descripción */
+.description {
+    margin-bottom: 20px;
+}
+
+/* Información de contacto */
+.contact {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Contenedor de botones superiores */
+.top-buttons {
+    display: flex; /* Utiliza flexbox para organizar los botones */
+    justify-content: space-around; /* Distribuye los botones horizontalmente */
+    margin-bottom: 20px; /* Espacio entre los botones superiores y el contenido */
+}
+
+/* Botones generales */
+.link-card {
+    display: inline-block;
+    margin: 15px; /* Espaciado entre botones */
+    padding: 10px 20px; /* Tamaño interno de los botones */
+    background: lightgray;
+    border-radius: 8px; /* Bordes redondeados */
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: black; /* Texto en negro */
+}
+
+.link-card:hover {
+    background-color: #d3d3d3;
+}
+
+/* Botón centrado */
+.centered-btn {
+    display: block; /* Se comporta como bloque para centrarse */
+    margin: 30px auto; /* Centra el botón horizontalmente y agrega espacio superior/inferior */
+    text-align: center;
+    padding: 15px 25px;
+    font-size: 16px;
+    background: gray;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.centered-btn:hover {
+    background-color: #666;
+}
+
+/* Diseño mejorado del formulario */
+.form-card {
+    max-width: 500px; /* Limita el tamaño del formulario */
+    margin: 40px auto; /* Centra el formulario horizontalmente */
+    background-color: lightskyblue;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Título del formulario */
+.form-title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: navy;
+}
+
+/* Inputs y área de texto */
+.form-input,
+.form-textarea {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+    border-color: navy;
+    outline: none;
+}
+
+/* Botón del formulario */
+.form-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: navy;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.form-button:hover {
+    background-color: #0050a1;
+}
+
+/* Botón de Volver Atrás */
+.back-button {
+    margin-top: 20px; /* Espacio superior */
+    background-color: navy;
+    color: white;
+    font-weight: bold;
+}
+
+.back-button:hover {
+    background-color: #0050a1;
+}
+.imgcomentario {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+

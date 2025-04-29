@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        emailjs.init("lZy4zgSBlBRp6RVzQ");
+    </script>
+    <script src="./script.js" defer></script>
+    <link rel="icon" href="./assets/R.png" type="image/x-icon">
+    <title>Comentarios</title>
+</head>
+<body>
+    <section>
+        <div class="card">
+            <div class="description">
+                <h1>Comentarios</h1>
+                <p>¡Hola! Si deseas dejarme un comentario, por favor completa el formulario a continuación. Tu opinión es muy importante para mí.</p>
+                <!-- Imagen GIF correctamente referenciada -->
+                <img src="./assets/descarga.jpg" alt="Interacción de comentarios" class="imgcomentario">
+            </div>
+            <section class="comentario">
+                <!-- Formulario con integración de EmailJS -->
+                <form id="commentForm">
+                    <fieldset>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" placeholder="Escribe tu nombre" class="form-input" required title="Por favor, ingresa tu nombre." aria-label="Campo para ingresar tu nombre">
+                    
+                        <label for="comment">Comentario:</label>
+                        <textarea id="comment" name="comment" placeholder="Escribe tu comentario aquí" class="form-textarea" rows="5" required title="Por favor, ingresa tu comentario." aria-label="Campo para ingresar tu comentario"></textarea>
+                    
+                        <button type="submit" class="form-button">Enviar</button>
+                    </fieldset>
+                </form>
+                <!-- Enlace para volver al portafolio -->
+                <div class="links">
+                    <a href="./index.html" class="link-card" aria-label="Volver a la página de inicio">Volver al portafolio</a>
+                </div>
+            </section>
+        </div>
+    </section>
+</body>
+</html>
+
+
